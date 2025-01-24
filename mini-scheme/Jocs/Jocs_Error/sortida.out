@@ -1,0 +1,31 @@
+Test 1:
+Error in line 5, column 20: extraneous input ')' expecting <EOF>
+
+Test 2:
+Error in line 6, column 0: mismatched input '<EOF>' expecting ')'
+
+Test 3:
+Error in line 4, column 8: missing '(' at 'main'
+
+Test 4:
+Error in line 5, column 3: extraneous input '(' expecting {')', VAR}
+
+Test 5:
+Error in line 5, column 8: mismatched input 'x' expecting '('
+
+Test 6:
+Error in line 6, column 14: mismatched input ')' expecting {'(', ''', NUM, BOOL, STRING, VAR}
+
+Test 7:
+Error in line 6, column 21: mismatched input ')' expecting {'(', ''', NUM, BOOL, STRING, VAR}
+
+Test 8:
+Error in line 6, column 7: extraneous input 'display' expecting {'(', ''', NUM, BOOL, STRING, VAR}
+
+Test 9:
+line 5:12 token recognition error at: '@'
+Error in line 5, column 13: mismatched input ')' expecting {'(', ''', NUM, BOOL, STRING, VAR}
+
+Test 10:
+Error in line 5, column 15: mismatched input '+' expecting {'(', ''', NUM, BOOL, STRING, VAR}
+

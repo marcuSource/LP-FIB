@@ -1,0 +1,21 @@
+Test 1: Funció amb enters
+6
+
+Test 2: Funció amb booleans
+#t
+
+Test 3: Funció amb strings
+Hola 
+
+Test 4: Funció amb llistes
+1
+
+Test 5: Funció amb if i cond
+negatiu
+zero
+petit
+mitjà
+gran
+
+Test 6: Funció amb let
+La suma és: 9

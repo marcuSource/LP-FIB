@@ -1,0 +1,14 @@
+Test factorial 5: 120
+
+Fibonacci de 7: 13
+
+Suma dels números de l'1 al 5: 15
+
+Duplicar els números de l'1 al 4: (2 4 6 8)
+
+Filtrar parells de l'1 al 6: (2 4 6)
+
+Llista (1 2 3) està ordenada?: #t
+Llista (3 2 1) està ordenada?: #f
+
+Concatenar 'hola' 3 cops: (hola hola hola)

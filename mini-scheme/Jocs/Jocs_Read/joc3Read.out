@@ -1,0 +1,20 @@
+Test 1: let amb una variable local
+Expressió a avaluar: d + 1
+Introdueix un valor per d: Avaluació: 5 + 1 = 6
+
+Test 2: let amb múltiples variables locals
+Expressió a avaluar: (d + e) * f
+Introdueix un valor per d: Introdueix un valor per e: Introdueix un valor per f: Avaluació: (4 + 3) * 2 = 14
+
+Test 3: let amb diferents tipus
+Es mostraran els valors introduits
+Introdueix un número: Introdueix un string: Introdueix un booleà (1/0): Avaluació: 42 hola #t
+
+Test 4: let anidats
+Expressió a avaluar: d + e + f
+Introdueix primer número (d): Introdueix segon número (e): Introdueix tercer número (f): Avaluació: 1 + 2 + 3 = 6
+
+Test 5: let accedint a globals (a=1, b=2, c=3)
+Expressions a avaluar: a + (b * d), c * e
+Introdueix multiplicador per b (d): Introdueix multiplicador per c (e): Avaluació 1: a + (b * 2) = 5
+Avaluació 2: c * 3 = 9

@@ -1,0 +1,37 @@
+Test 1: if amb enters
+num1 = 5
+Introdueix un número per comparar amb num1: num1 és més gran
+
+Test 2: if amb strings
+str1 = hola
+Introdueix un string per comparar amb str1: str1 va primer
+
+Test 3: if amb booleans
+bool1 = #t
+Introdueix un booleà (1 per true, 0 per false): tots dos certs
+
+Test 4: if amb llistes
+llista1 = (1 2 3)
+Comprovem si el primer element és més gran que un valor donat
+Introdueix un número per comparar amb el primer element: primer element més gran
+
+Test 5: cond amb enters
+Introdueix un número per classificar-lo: negatiu
+
+Test 6: cond amb strings
+Introdueix un string (hola o adeu): salutació
+
+Test 7: cond amb booleans
+bool1 = #t
+Introdueix un booleà (1 per true, 0 per false): ambdós certs
+
+Test 8: cond amb llistes
+llista2 = (4 5)
+Introdueix un número per comparar amb tots els elements: més petit que tots
+
+Test 9: if barrejant tipus
+num1 = 5, str1 = hola
+Introdueix un número: tot correcte
+
+Test 10: cond barrejant tipus
+Introdueix un booleà (1 per true, 0 per false): booleà cert

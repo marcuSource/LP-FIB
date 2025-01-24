@@ -1,0 +1,21 @@
+Test Insertion Sort
+Input: (5 2 9 1 7 6 3)
+Output: (1 2 3 5 6 7 9)
+
+Test Merge Sort
+Input: (5 2 9 1 7 6 3)
+Output: (1 2 3 5 6 7 9)
+
+Test Binary Search
+Llista ordenada: (1 2 3 5 6 7 9)
+Cercant element 5: 
+Element trobat: 5 a la posicio: 3
+Cercant element 4: 
+L'element no es troba a la llista
+
+Test Greedy
+Pesos:      (2 3 4 5)
+Valors:     (3 4 5 6)
+Capacitat:  10
+Valor obtingut: 11
+Objectes seleccionats (indexs): (2 3)

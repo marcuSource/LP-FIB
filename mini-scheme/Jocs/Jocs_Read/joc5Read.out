@@ -1,0 +1,23 @@
+Test factorial(n)
+Calcula el factorial d'un nombre
+Introdueix n: factorial(3) = 6
+
+Test fibonacci(n)
+Calcula el n-èsim número de Fibonacci
+Introdueix n: fibonacci(8) = 21
+
+Test suma dels números de l'1 fins a n
+Introdueix n: sum(range(10)) = 55
+
+Test duplicar els números de l'1 fins a n
+Introdueix n: map-custom(double, range(8)) = (2 4 6 8 10 12 14 16)
+
+Test filtrar números parells de l'1 fins a n
+Introdueix n: filter-custom(parell, range(12)) = (2 4 6 8 10 12)
+
+Test ordenada?(llista)
+Introdueix tres números per crear una llista
+n1: n2: n3: ordenada?((3 1 2)) = #f
+
+Test concat(str,n)
+Introdueix un string: Quantes vegades el vols repetir? concat(recurs,5) = (recurs recurs recurs recurs recurs)

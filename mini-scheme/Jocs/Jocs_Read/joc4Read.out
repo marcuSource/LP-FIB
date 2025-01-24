@@ -1,0 +1,25 @@
+Test 1: Funció suma-tres(a,b,c) = a + b + c
+Introdueix valor per a: Introdueix valor per b: Introdueix valor per c: suma-tres(10,-5,3) = 8
+
+Test 2: Funció tots-certs(a,b,c) = a and b and c
+Introdueix tres booleans (1/0)
+a: b: c: tots-certs(#t,#f,#t) = #f
+
+Test 3: Funció concatena(str1,str2) = str1
+Introdueix primer string: Introdueix segon string: concatena(adeu ,amic) = adeu 
+
+Test 4: Funció primer(llista)
+La llista serà (n1 n2 n3)
+Introdueix n1: Introdueix n2: Introdueix n3: primer((7 8 9)) = 7
+
+Test 5: Funció evalua-nombre(n)
+Avaluarà si el nombre és negatiu/zero/petit/mitjà/gran
+Introdueix 5 números per avaluar:
+n1: evalua-nombre(-100) = negatiu
+n2: evalua-nombre(0) = zero
+n3: evalua-nombre(7) = petit
+n4: evalua-nombre(75) = mitjà
+n5: evalua-nombre(1000) = gran
+
+Test 6: Funció sumar-dos-valors(x,y)
+Introdueix x: Introdueix y: sumar-dos-valors(-10,20) = La suma és: 10

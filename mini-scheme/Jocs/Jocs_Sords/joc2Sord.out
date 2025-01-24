@@ -1,0 +1,29 @@
+Test 1: if amb enters
+ordre correcte
+
+Test 2: if amb strings
+no alfabètic
+
+Test 3: if amb booleans
+avaluació correcta
+
+Test 4: if amb llistes
+llista llarga
+
+Test 5: cond amb enters
+positiu
+
+Test 6: cond amb strings
+salutació
+
+Test 7: cond amb booleans
+algun cert
+
+Test 8: cond amb llistes
+múltiples elements
+
+Test 9: if barrejant tipus
+tot correcte
+
+Test 10: cond barrejant tipus
+cap condició certa

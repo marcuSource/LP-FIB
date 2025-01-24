@@ -1,0 +1,42 @@
+Test d'operacions + - * /
+9
+34
+-330
+3
+-100
+-3
+1
+
+Test d'operacions and or not
+#t
+#f
+#t
+#t
+#f
+#t
+#t
+#t
+
+Test d'operacions = <> < <= > >=
+head
+head shoulders knees and toes
+#f
+#t
+#t
+#f
+#t
+#t
+#f
+#t
+#t
+
+Test d'operacions car cdr cons null?
+(#t #f #t #t)
+(shoulders knees toes)
+(1 2 3 4)
+(0 1 2 3 4)
+#f
+#t
+(#t #f #t #t)
+#t
+(1)

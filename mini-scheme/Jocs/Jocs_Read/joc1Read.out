@@ -1,0 +1,66 @@
+OPERACIONS NUMÈRIQUES:
+
+x = 1
+Introdueix un nombre per sumar amb x: x + 5 = 6
+
+z = 3
+Introdueix un nombre per restar-li z: 8 - z = 5
+
+y = -2
+Introdueix un nombre per multiplicar amb y: y * 4 = -8
+
+x = 1
+Introdueix un nombre per dividir-lo per x: 10 / x = 10
+
+y = -2, x = 1
+Introdueix un nombre n per calcular (n + y) * x: (3 + y) * x = 1
+
+OPERACIONS BOOLEANES:
+True = #t (introdueix 1)
+False = #f (introdueix 0)
+
+Introdueix un booleà (1 per true, 0 per false) per fer AND amb True: True AND 1 = #t
+
+Introdueix un booleà (1 per true, 0 per false) per fer OR amb False: False OR 0 = #f
+
+Introdueix un booleà (1 per true, 0 per false) per fer-li NOT: NOT 1 = #f
+
+Operació complexa: (not read1) and (True or (not read2))
+Introdueix el primer booleà (1 per true, 0 per false) (read1): Introdueix el segon booleà (1 per true, 0 per false) (read2): (not 1) and (True or (not 0)) = #f
+
+OPERACIONS AMB STRINGS:
+a = head
+b = shoulders
+c = knees
+d = toes
+
+Comprovem igualtat (=)
+Introdueix un string per comparar amb a (head): head = a és #t
+
+Comprovem diferència (<>)
+Introdueix un string per comparar amb b (shoulders): arm <> b és #t
+
+Comprovem menor que (<)
+Introdueix un string per comparar amb c (knees): legs < c és #f
+
+Comprovem major que (>)
+Introdueix un string per comparar amb d (toes): nose > d és #f
+
+Comprovem menor o igual (<=)
+Introdueix un string per comparar amb a (head): hand <= a és #t
+
+Comprovem major o igual (>=)
+Introdueix un string per comparar amb b (shoulders): back >= b és #f
+
+OPERACIONS AMB LLISTES:
+intL = (1 2 3 4)
+strL = (head shoulders knees toes)
+listL = (intL strL)
+
+Car de intL: 1
+
+Cdr de strL: (shoulders knees toes)
+
+Cons de strL i listL: ((head shoulders knees toes) (1 2 3 4) (head shoulders knees toes))
+
+listL és buida? #f

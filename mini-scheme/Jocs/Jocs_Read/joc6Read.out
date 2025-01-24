@@ -1,0 +1,23 @@
+Test Insertion Sort
+Introdueix 4 números per ordenar:
+n1: n2: n3: n4: Input: (8 4 9 2)
+Output ordenat: (2 4 8 9)
+
+Test Merge Sort
+Introdueix 4 números diferents per ordenar:
+n1: n2: n3: n4: Input: (7 1 6 3)
+Output ordenat: (1 3 6 7)
+
+Test Binary Search
+Usarem la llista ordenada (1 2 3 4 5 6 7)
+Quin número vols buscar? Cercant element 4: 
+Element trobat: 4 a la posicio: 3
+
+Test Greedy Knapsack
+Quants objectes vols introduir? Introdueix els pesos dels objectes:
+pes objecte 3: pes objecte 2: pes objecte 1: Introdueix els valors dels objectes:
+valor objecte 3: valor objecte 2: valor objecte 1: Introdueix la capacitat de la motxilla: Pesos:  (4 3 2)
+Valors: (8 7 5)
+Capacitat: 7
+Valor màxim obtingut: 12
+Objectes seleccionats (índexs): (1 2)

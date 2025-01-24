@@ -1,0 +1,14 @@
+Test 1: let amb una variable local
+6
+
+Test 2: let amb múltiples variables locals
+16
+
+Test 3: let amb diferents tipus
+42 local #f (4 5 6)
+
+Test 4: let anidats
+6
+
+Test 5: let accedint a globals
+3 6
