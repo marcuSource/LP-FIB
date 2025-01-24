@@ -1,0 +1,56 @@
+\usepackage{listings}
+\usepackage{xcolor}
+
+% Definició de colors
+\definecolor{SkyBlue}{RGB}{0,122,204}     % Blau clar per a paraules clau
+\definecolor{Orange}{RGB}{255,140,0}      % Taronja suau per a cadenes
+\definecolor{SeaGreen}{RGB}{46,139,87}    % Verd apagat per a comentaris
+\definecolor{LightGray}{RGB}{245,245,245} % Gris molt clar per al fons
+\definecolor{MediumGray}{RGB}{160,160,160} % Gris mitjà per als números de línia
+\definecolor{DarkPurple}{RGB}{128,0,128}  % Violeta fosc per a funcions
+\definecolor{SoftYellow}{RGB}{255,255,150} % Groc suau per a literals
+
+% Configuració de listings
+\lstset{
+    basicstyle=\ttfamily\footnotesize,      % Font bàsica
+    keywordstyle=\color{SkyBlue},           % Paraules clau en Blau clar
+    stringstyle=\color{Orange},             % Cadenes en Taronja suau
+    commentstyle=\color{SeaGreen}\itshape,  % Comentaris en Verd apagat
+    numbers=left,                           % Números de línia a l'esquerra
+    numberstyle=\tiny\color{MediumGray},    % Estil de números de línia en gris mitjà
+    stepnumber=1,                           % Cada línia numerada
+    backgroundcolor=\color{LightGray},      % Fons gris molt clar
+    breaklines=true,                        % Trencar línies llargues
+    showstringspaces=false,                 % No mostrar espais a les cadenes
+    frame=single,                           % Marc simple al voltant del codi
+    frameround=tttt,                        % Cantons arrodonits
+    xleftmargin=2.5em,                      % Marge esquerre
+    xrightmargin=2.5em,                     % Marge dret
+    captionpos=b,                           % Posició de la llegenda (bottom)
+    identifierstyle=\color{DarkPurple},     % Funcions en Violeta fosc
+    moredelim=**[is][\color{SoftYellow}]{@}{@},  % Groc suau per a literals dins del codi
+}
+
+
+\begin{lstlisting}[language=C++,caption={Exemple d'un programa que calcula la suma d'un vector d'enters en C++.}, label={fig:C++}]
+// Suma de tots els elements d'un vector d'enters
+int main() {
+    int total = 0;                        //total de la suma
+    vector<int> vec {1, 2, 3, 4};         //vector d'enters
+    for(int i = 0; i < vec.size(); ++i){  //per a tot element de vec
+        total += vec[i];                  //incrementem el valor
+    }
+    cout << "Total = " << total << endl;  //imprimim el resultat
+}                                         //Total = 10
+\end{lstlisting}
+
+\begin{lstlisting}[language=Haskell, caption={Exemple d'un programa que suma una llista d'enters en Haskell.}, label={fig:Haskell}]
+--Suma de tots els elements d'una llista d'enters
+sumList :: [Int] -> Int  --La funcio rep una llista i retorna un int
+sumList [] = 0                      --Cas base: La llista esta buida
+sumList (x:xs) = x + sumList xs     --Cas recursiu
+
+main :: IO ()
+main = print (sumList [1, 2, 3, 4]) --Imprimeix la suma dels 
+                                    --elements (10)
+\end{lstlisting}
